@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <meta name="author" content="Weidsom Nascimento">
-  <link rel="canonical" href="https://andrax.thecrackertechnology.com/documentation/install/">
+  <link rel="canonical" href="https://andrax.thecrackertechnology.com/documentation/services/">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>ANDRAX Installation - ANDRAX Hackers Platform - Documentation</title>
+  <title>ANDRAX Services - ANDRAX Hackers Platform - Documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "ANDRAX Installation";
-    var mkdocs_page_input_path = "install.md";
-    var mkdocs_page_url = "/documentation/install/";
+    var mkdocs_page_name = "ANDRAX Services";
+    var mkdocs_page_input_path = "services.md";
+    var mkdocs_page_url = "/documentation/services/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
@@ -59,24 +59,20 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">ANDRAX Installation</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#download-andrax">Download ANDRAX</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#andrax-passwords">ANDRAX passwords</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#learn-ethical-hacking">Learn Ethical Hacking</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install/">ANDRAX Installation</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../update/">Update/Upgrade ANDRAX</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../services/">ANDRAX Services</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">ANDRAX Services</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#learn-ethical-hacking">Learn Ethical Hacking</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
                 <ul>
@@ -104,7 +100,7 @@
     
       
     
-    <li>ANDRAX Installation</li>
+    <li>ANDRAX Services</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -115,40 +111,15 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-to-install-andrax">How to install ANDRAX?</h1>
-<p>ANDRAX Installation is so easy, every dumb like you can install it too!</p>
-<div class="admonition attention">
-<p class="admonition-title">Root and space required</p>
-<p>You need a rooted device and around 15gb of free space<br />
-We recommend use Magisk as your root manager!</p>
-</div>
-<h2 id="download-andrax">Download ANDRAX</h2>
-<p>To start, Download ANDRAX from our <a href="https://andrax.thecrackertechnology.com">Official WebSite</a></p>
-<div class="admonition danger">
-<p class="admonition-title"><strong>Only DOWNLOAD from OUR SITE</strong>!!!</p>
-<p>Never Download ANDRAX from other source, ANDRAX is a Open Source Projects and anyone can create a malicious builds.</p>
-<p>Malicious russian kids are spreading malware on <strong>4pda</strong> saying that is "custom" ANDRAX builds, Only Download from
-<a href="https://andrax.thecrackertechnology.com">Official WebSite</a></p>
-</div>
-<ol>
-<li>Open ANDRAX interface</li>
-<li>Allow root access</li>
-<li>Give ANDRAX storage permission (to save files and manage downloads)</li>
-<li>Press "OK" on ANDRAX install dialog</li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title"><strong>Never exit from installation screen</strong>!</p>
-<p>You must stay on the installation screen to prevent Android from closing ANDRAX</p>
-</div>
-<p>The installation process can take more than 1 hour, its depends of your internet speed and your device IO speed!</p>
-<p>Now your ANDRAX installation will be done if everything is ok!</p>
-<div class="admonition tip">
-<p class="admonition-title">Root access notification (toast)</p>
-<p>ANDRAX ask for root commands many... realy many times so a lot of toasts
-can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
-</div>
-<h2 id="andrax-passwords">ANDRAX passwords</h2>
-<p>Some things like: sudo, su and others tools ask you for passwords, in 90% of the cases the password is <strong>andrax</strong></p>
+                <h1 id="services-daemons">Services daemons</h1>
+<p>ANDRAX is completely equipped with services daemons to help you and improve your usability!</p>
+<p>Container of ANDRAX never boot, the container is always in user space, but you can use init.d scripts
+in the same way that you do in a normal Linux distributions.</p>
+<p>You can list ANDRAX available services using the command:</p>
+<pre><code class="shellscript">sudo service --status-all
+</code></pre>
+
+<p><img alt="ANDRAX service manager" src="../img/andraxservices.png" title="ANDRAX init.d services" /></p>
 <h2 id="learn-ethical-hacking">Learn Ethical Hacking</h2>
 <p>If you want to become a professional, join our Advanced Ethical Hacking Training: <a href="https://learnapp.thecrackertechnology.com/advanced-hacking-training/">JOIN NOW!</a></p>
               
@@ -158,10 +129,10 @@ can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../update/" class="btn btn-neutral float-right" title="Update/Upgrade ANDRAX">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../remote-control-andrax/" class="btn btn-neutral float-right" title="Remote Control ANDRAX">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../update/" class="btn btn-neutral" title="Update/Upgrade ANDRAX"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -187,10 +158,10 @@ can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../update/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../update/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../remote-control-andrax/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

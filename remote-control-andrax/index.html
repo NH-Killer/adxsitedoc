@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <meta name="author" content="Weidsom Nascimento">
-  <link rel="canonical" href="https://andrax.thecrackertechnology.com/documentation/install/">
+  <link rel="canonical" href="https://andrax.thecrackertechnology.com/documentation/remote-control-andrax/">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>ANDRAX Installation - ANDRAX Hackers Platform - Documentation</title>
+  <title>Remote Control ANDRAX - ANDRAX Hackers Platform - Documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "ANDRAX Installation";
-    var mkdocs_page_input_path = "install.md";
-    var mkdocs_page_url = "/documentation/install/";
+    var mkdocs_page_name = "Remote Control ANDRAX";
+    var mkdocs_page_input_path = "remote-control-andrax.md";
+    var mkdocs_page_url = "/documentation/remote-control-andrax/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
@@ -59,16 +59,8 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">ANDRAX Installation</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#download-andrax">Download ANDRAX</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#andrax-passwords">ANDRAX passwords</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#learn-ethical-hacking">Learn Ethical Hacking</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install/">ANDRAX Installation</a>
                     </li>
                 </ul>
                 <ul>
@@ -79,8 +71,24 @@
                     <li class="toctree-l1"><a class="reference internal" href="../services/">ANDRAX Services</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../remote-control-andrax/">Remote Control ANDRAX</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Remote Control ANDRAX</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ssh">SSH</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-enable-ssh-server">How to enable SSH Server?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vnc">VNC</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#to-start-graphical-interface-on-andrax">To start Graphical Interface on ANDRAX?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#learn-ethical-hacking">Learn Ethical Hacking</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
       </div>
@@ -104,7 +112,7 @@
     
       
     
-    <li>ANDRAX Installation</li>
+    <li>Remote Control ANDRAX</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -115,40 +123,35 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-to-install-andrax">How to install ANDRAX?</h1>
-<p>ANDRAX Installation is so easy, every dumb like you can install it too!</p>
-<div class="admonition attention">
-<p class="admonition-title">Root and space required</p>
-<p>You need a rooted device and around 15gb of free space<br />
-We recommend use Magisk as your root manager!</p>
-</div>
-<h2 id="download-andrax">Download ANDRAX</h2>
-<p>To start, Download ANDRAX from our <a href="https://andrax.thecrackertechnology.com">Official WebSite</a></p>
-<div class="admonition danger">
-<p class="admonition-title"><strong>Only DOWNLOAD from OUR SITE</strong>!!!</p>
-<p>Never Download ANDRAX from other source, ANDRAX is a Open Source Projects and anyone can create a malicious builds.</p>
-<p>Malicious russian kids are spreading malware on <strong>4pda</strong> saying that is "custom" ANDRAX builds, Only Download from
-<a href="https://andrax.thecrackertechnology.com">Official WebSite</a></p>
-</div>
-<ol>
-<li>Open ANDRAX interface</li>
-<li>Allow root access</li>
-<li>Give ANDRAX storage permission (to save files and manage downloads)</li>
-<li>Press "OK" on ANDRAX install dialog</li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title"><strong>Never exit from installation screen</strong>!</p>
-<p>You must stay on the installation screen to prevent Android from closing ANDRAX</p>
-</div>
-<p>The installation process can take more than 1 hour, its depends of your internet speed and your device IO speed!</p>
-<p>Now your ANDRAX installation will be done if everything is ok!</p>
-<div class="admonition tip">
-<p class="admonition-title">Root access notification (toast)</p>
-<p>ANDRAX ask for root commands many... realy many times so a lot of toasts
-can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
-</div>
-<h2 id="andrax-passwords">ANDRAX passwords</h2>
-<p>Some things like: sudo, su and others tools ask you for passwords, in 90% of the cases the password is <strong>andrax</strong></p>
+                <h1 id="andrax-remote-control">ANDRAX Remote Control</h1>
+<p>Control ANDRAX remotely is relative easy, ANDRAX is pre-configured to be accessible by SSH and VNC</p>
+<h2 id="ssh">SSH</h2>
+<p>ANDRAX has the OpenSSH by default, everything to a use is pre-configured...</p>
+<h3 id="how-to-enable-ssh-server">How to enable SSH Server?</h3>
+<p>To start SSH Daemon you only need press this command:</p>
+<pre><code class="shellscript">sudo service ssh start
+</code></pre>
+
+<p>SSH server will be started and accessible by port 22 on ANDRAX IP.</p>
+<p><img alt="ANDRAX SSH Server" src="../img/andraxsshserver.png" title="ANDRAX SSH Server" /></p>
+<p>Now try connect on ANDRAX from any SSH client and you will be able to run commands on your ANDRAX installation remotely.</p>
+<p><img alt="ANDRAX SSH Shell" src="../img/andraxsshshell.png" title="ANDRAX SSH Shell" /></p>
+<h2 id="vnc">VNC</h2>
+<p>The new generation of ANDRAX have Native Linux Graphical Interface, we use <strong>FluxBox</strong>, the best high performance and low power Window Manager.</p>
+<h3 id="to-start-graphical-interface-on-andrax">To start Graphical Interface on ANDRAX?</h3>
+<p>Just run the following command on shell:</p>
+<pre><code class="shellscript">sudo service vnc start
+</code></pre>
+
+<p><img alt="ANDRAX VNC Server" src="../img/andraxvncserver.png" title="ANDRAX VNC Server" /></p>
+<p>Now ANDRAX VNC server is started and the Graphical Interface is fully operational, you can access the Graphical Interface using any VNC client on your Android or In your PC if you want it.</p>
+<p>The <strong>port is 5901</strong> and the password is <strong>andrax</strong></p>
+<p><img alt="ANDRAX VNC 01" src="../img/andraxvnc1.png" title="ANDRAX VNC 01" />
+<img alt="ANDRAX VNC 02" src="../img/andraxvnc2.png" title="ANDRAX VNC 02" />
+<img alt="ANDRAX VNC 03" src="../img/andraxvnc3.png" title="ANDRAX VNC 03" /></p>
+<p><img alt="ANDRAX VNC Screen1" src="../img/andraxvncscreen1.png" title="ANDRAX VNC Screen1" />
+<img alt="ANDRAX VNC Screen2" src="../img/andraxvncscreen2.png" title="ANDRAX VNC Screen2" />
+<img alt="ANDRAX VNC Screen3" src="../img/andraxvncscreen3.png" title="ANDRAX VNC Screen3" /></p>
 <h2 id="learn-ethical-hacking">Learn Ethical Hacking</h2>
 <p>If you want to become a professional, join our Advanced Ethical Hacking Training: <a href="https://learnapp.thecrackertechnology.com/advanced-hacking-training/">JOIN NOW!</a></p>
               
@@ -158,10 +161,8 @@ can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../update/" class="btn btn-neutral float-right" title="Update/Upgrade ANDRAX">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../services/" class="btn btn-neutral" title="ANDRAX Services"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -187,10 +188,8 @@ can appear in your screen, you can disable it on magisk config for ANDRAX.</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../services/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../update/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
